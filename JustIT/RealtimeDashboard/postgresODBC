@@ -1,0 +1,46 @@
+import os
+import platform
+import subprocess
+import urllib.request
+
+def install_postgres_odbc():
+    # Determine the operating system
+    system = platform.system().lower()
+
+    if 'windows' in system:
+        # Download the PostgreSQL ODBC driver for Windows
+        url = "https://ftp.postgresql.org/pub/odbc/versions/msi/psqlodbc_x64.msi"
+        download_path = os.path.join(os.getcwd(), "psqlodbc_x64.msi")
+        print("Downloading PostgreSQL ODBC driver...")
+        
+        urllib.request.urlretrieve(url, download_path)
+        
+        print(f"Downloaded to {download_path}. Installing...")
+
+        # Run the installer
+        try:
+            subprocess.run(['msiexec', '/i', download_path], check=True)
+            print("Installation completed successfully.")
+        except subprocess.CalledProcessError as e:
+            print(f"Installation failed: {e}")
+    elif 'darwin' in system:
+        # For macOS, use brew (this requires Homebrew to be installed)
+        print("Installing PostgreSQL ODBC driver on macOS...")
+        try:
+            subprocess.run(['brew', 'install', 'psqlodbc'], check=True)
+            print("PostgreSQL ODBC driver installed successfully.")
+        except subprocess.CalledProcessError as e:
+            print(f"Installation failed: {e}")
+    elif 'linux' in system:
+        # For Linux (Ubuntu/Debian)
+        print("Installing PostgreSQL ODBC driver on Linux...")
+        try:
+            subprocess.run(['sudo', 'apt-get', 'install', '-y', 'odbc-postgresql'], check=True)
+            print("PostgreSQL ODBC driver installed successfully.")
+        except subprocess.CalledProcessError as e:
+            print(f"Installation failed: {e}")
+    else:
+        print(f"Unsupported OS: {system}")
+
+if __name__ == "__main__":
+    install_postgres_odbc()

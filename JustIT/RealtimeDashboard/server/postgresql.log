@@ -1,0 +1,78 @@
+2024-08-23 11:02:51.809 BST [17513] LOG:  starting PostgreSQL 15.7 (Postgres.app) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2024-08-23 11:02:51.810 BST [17513] LOG:  listening on IPv6 address "::1", port 5432
+2024-08-23 11:02:51.810 BST [17513] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-08-23 11:02:51.811 BST [17513] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-08-23 11:02:51.812 BST [17518] LOG:  database system was shut down at 2024-08-23 11:02:51 BST
+2024-08-23 11:02:51.814 BST [17513] LOG:  database system is ready to accept connections
+2024-08-23 11:03:28.485 BST [17513] LOG:  received fast shutdown request
+2024-08-23 11:03:28.486 BST [17513] LOG:  aborting any active transactions
+2024-08-23 11:03:28.488 BST [17513] LOG:  background worker "logical replication launcher" (PID 17521) exited with exit code 1
+2024-08-23 11:03:28.489 BST [17516] LOG:  shutting down
+2024-08-23 11:03:28.489 BST [17516] LOG:  checkpoint starting: shutdown immediate
+2024-08-23 11:03:28.549 BST [17516] LOG:  checkpoint complete: wrote 936 buffers (5.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.050 s, sync=0.009 s, total=0.060 s; sync files=308, longest=0.001 s, average=0.001 s; distance=4281 kB, estimate=4281 kB
+2024-08-23 11:03:28.551 BST [17513] LOG:  database system is shut down
+2024-08-23 11:03:47.932 BST [17638] LOG:  starting PostgreSQL 15.7 (Postgres.app) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2024-08-23 11:03:47.934 BST [17638] LOG:  listening on IPv6 address "::1", port 5432
+2024-08-23 11:03:47.934 BST [17638] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-08-23 11:03:47.934 BST [17638] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-08-23 11:03:47.936 BST [17641] LOG:  database system was shut down at 2024-08-23 11:03:44 BST
+2024-08-23 11:03:47.937 BST [17638] LOG:  database system is ready to accept connections
+2024-08-23 11:08:47.944 BST [17639] LOG:  checkpoint starting: time
+2024-08-23 11:08:52.497 BST [17639] LOG:  checkpoint complete: wrote 48 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.547 s, sync=0.002 s, total=4.553 s; sync files=12, longest=0.001 s, average=0.001 s; distance=272 kB, estimate=272 kB
+2024-08-23 11:09:02.531 BST [17638] LOG:  received fast shutdown request
+2024-08-23 11:09:02.532 BST [17638] LOG:  aborting any active transactions
+2024-08-23 11:09:02.534 BST [17638] LOG:  background worker "logical replication launcher" (PID 17645) exited with exit code 1
+2024-08-23 11:09:02.534 BST [17639] LOG:  shutting down
+2024-08-23 11:09:02.535 BST [17639] LOG:  checkpoint starting: shutdown immediate
+2024-08-23 11:09:02.537 BST [17639] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.003 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=245 kB
+2024-08-23 11:09:02.541 BST [17638] LOG:  database system is shut down
+2024-08-23 11:09:50.703 BST [17758] LOG:  starting PostgreSQL 15.7 (Postgres.app) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2024-08-23 11:09:50.705 BST [17758] LOG:  listening on IPv6 address "::1", port 5432
+2024-08-23 11:09:50.705 BST [17758] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-08-23 11:09:50.706 BST [17758] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-08-23 11:09:50.708 BST [17761] LOG:  database system was shut down at 2024-08-23 11:09:35 BST
+2024-08-23 11:09:50.710 BST [17758] LOG:  database system is ready to accept connections
+2024-08-23 11:10:54.248 BST [17758] LOG:  received fast shutdown request
+2024-08-23 11:10:54.249 BST [17758] LOG:  aborting any active transactions
+2024-08-23 11:10:54.251 BST [17758] LOG:  background worker "logical replication launcher" (PID 17764) exited with exit code 1
+2024-08-23 11:10:54.251 BST [17759] LOG:  shutting down
+2024-08-23 11:10:54.251 BST [17759] LOG:  checkpoint starting: shutdown immediate
+2024-08-23 11:10:54.253 BST [17759] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.003 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB
+2024-08-23 11:10:54.256 BST [17758] LOG:  database system is shut down
+2024-08-23 11:13:18.570 BST [17887] LOG:  starting PostgreSQL 15.7 (Postgres.app) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2024-08-23 11:13:18.573 BST [17887] LOG:  listening on IPv6 address "::1", port 5432
+2024-08-23 11:13:18.573 BST [17887] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-08-23 11:13:18.573 BST [17887] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-08-23 11:13:18.575 BST [17890] LOG:  database system was shut down at 2024-08-23 11:10:54 BST
+2024-08-23 11:13:18.578 BST [17887] LOG:  database system is ready to accept connections
+2024-08-23 11:18:18.576 BST [17888] LOG:  checkpoint starting: time
+2024-08-23 11:19:53.796 BST [17888] LOG:  checkpoint complete: wrote 947 buffers (5.8%); 1 WAL file(s) added, 0 removed, 0 recycled; write=95.201 s, sync=0.007 s, total=95.221 s; sync files=305, longest=0.001 s, average=0.001 s; distance=4305 kB, estimate=4305 kB
+2024-08-23 11:23:18.824 BST [17888] LOG:  checkpoint starting: time
+2024-08-23 11:23:19.333 BST [17888] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.505 s, sync=0.001 s, total=0.509 s; sync files=5, longest=0.001 s, average=0.001 s; distance=4 kB, estimate=3874 kB
+2024-08-23 11:28:18.342 BST [17888] LOG:  checkpoint starting: time
+2024-08-23 11:28:19.062 BST [17888] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.716 s, sync=0.002 s, total=0.720 s; sync files=8, longest=0.001 s, average=0.001 s; distance=20 kB, estimate=3489 kB
+2024-08-23 11:33:18.066 BST [17888] LOG:  checkpoint starting: time
+2024-08-23 11:33:18.780 BST [17888] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.710 s, sync=0.002 s, total=0.715 s; sync files=7, longest=0.001 s, average=0.001 s; distance=24 kB, estimate=3142 kB
+2024-08-23 13:03:58.432 BST [17887] LOG:  received fast shutdown request
+2024-08-23 13:03:58.433 BST [17887] LOG:  aborting any active transactions
+2024-08-23 13:03:58.434 BST [17915] FATAL:  terminating connection due to administrator command
+2024-08-23 13:03:58.434 BST [17930] FATAL:  terminating connection due to administrator command
+2024-08-23 13:03:58.435 BST [17939] FATAL:  terminating connection due to administrator command
+2024-08-23 13:03:58.440 BST [17887] LOG:  background worker "logical replication launcher" (PID 17893) exited with exit code 1
+2024-08-23 13:03:58.441 BST [17888] LOG:  shutting down
+2024-08-23 13:03:58.442 BST [17888] LOG:  checkpoint starting: shutdown immediate
+2024-08-23 13:03:58.446 BST [17888] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.005 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=2828 kB
+2024-08-23 13:03:58.452 BST [17887] LOG:  database system is shut down
+2024-08-23 13:04:00.357 BST [29821] LOG:  starting PostgreSQL 15.7 (Postgres.app) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2024-08-23 13:04:00.358 BST [29821] LOG:  listening on IPv6 address "::1", port 5432
+2024-08-23 13:04:00.358 BST [29821] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-08-23 13:04:00.358 BST [29821] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-08-23 13:04:00.363 BST [29824] LOG:  database system was shut down at 2024-08-23 13:03:58 BST
+2024-08-23 13:04:00.368 BST [29821] LOG:  database system is ready to accept connections
+2024-08-23 13:04:06.897 BST [29821] LOG:  received fast shutdown request
+2024-08-23 13:04:06.898 BST [29821] LOG:  aborting any active transactions
+2024-08-23 13:04:06.898 BST [29821] LOG:  background worker "logical replication launcher" (PID 29827) exited with exit code 1
+2024-08-23 13:04:06.898 BST [29822] LOG:  shutting down
+2024-08-23 13:04:06.899 BST [29822] LOG:  checkpoint starting: shutdown immediate
+2024-08-23 13:04:06.900 BST [29822] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.002 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB
+2024-08-23 13:04:06.901 BST [29821] LOG:  database system is shut down
